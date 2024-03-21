@@ -1,6 +1,6 @@
 class PetsController < ApplicationController
   def index
-    @pets = Pet.ActionController
+    @pets = Pet.all
     render :index
   end
 end
