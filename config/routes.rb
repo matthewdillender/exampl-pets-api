@@ -7,6 +7,8 @@ Rails.application.routes.draw do
 
   post "/users" => "users#create"
 
+  get "/pets" => "pets#index"
+
   # show ""
   # Defines the root path route ("/")
   # root "posts#index"
